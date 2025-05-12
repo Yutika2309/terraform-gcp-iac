@@ -3,5 +3,5 @@ resource "google_storage_bucket" "bucket-1" {
   project                  = "terraform-personal-project"
   location                 = "US"
   force_destroy            = true
-  public_access_prevention = "enforced"
+  public_access_prevention = v  "enforced"
 }
