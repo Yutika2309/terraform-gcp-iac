@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "bucket-1" {
+resource "google_storage_bucket" "bucket-4-yutz" {
   name                     = "yutikas-demo-bucket"
   project                  = "terraform-personal-project"
   location                 = "US"
